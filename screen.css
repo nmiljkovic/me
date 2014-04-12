@@ -1,0 +1,41 @@
+body {
+  background-color: #F3F3F3;
+  color: #666;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+.container {
+  padding-top: 50px;
+  width: 700px;
+  margin: 0 auto;
+}
+.profile-image {
+  border-radius: 50%;
+  box-shadow: rgb(141, 141, 141) 0px 0px 3px;
+  border: 1px solid white;
+}
+.header h2 {
+  color: rgb(102, 102, 102);
+}
+.about-me {
+  font-style: italic;
+}
+.links {
+  padding-left: 0;
+  margin-top: 50px;
+}
+.links li {
+  display: inline-block;
+  width: 19%;
+}
+a {
+  font-weight: 600;
+  color: rgb(66, 129, 209);
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(107, 172, 255);
+}
+.email {
+  font-size: 90%;
+}
